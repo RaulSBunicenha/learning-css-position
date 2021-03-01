@@ -1,0 +1,23 @@
+.container {
+
+}
+.container > .item {
+    width: 33.33vw;
+    padding: 10px;
+    height: 100px;
+}
+
+.container > .item.first {
+    background: yellow;
+    color: white;
+}
+
+.container > .item.second {
+    background: blue;
+    color: white;
+}
+
+.container > .item.third {
+    background: red;
+    color: white;
+}
