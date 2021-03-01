@@ -1,10 +1,9 @@
 .container {
-
+    text-align: center;
 }
 .container > .item {
-    width: 33.33vw;
     padding: 10px;
-    height: 100px;
+    display: inline;
 }
 
 .container > .item.first {
@@ -20,4 +19,9 @@
 .container > .item.third {
     background: red;
     color: white;
+}
+
+h3 {
+    text-align: center;
+    background-color: wheat;
 }
