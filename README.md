@@ -11,8 +11,24 @@ These spaces are because of the line break. If you comment that or join the divs
 
 So, with that property, we can't organize elements side by side, with width and height as we want.
 
+### Reviews
+- [x] One day after
+- [] Three days after
+- [] One weeak after
+- [] One month after
+- [] Two months after
+- [] Three months after
+
 ## display: block;
 
 It's used for elements that fill the entire row.
 
 If we put a `margin-left: auto`, that div will move to right;
+
+### Reviews
+- [] One day after
+- [] Three days after
+- [] One weeak after
+- [] One month after
+- [] Two months after
+- [] Three months after
