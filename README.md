@@ -5,7 +5,7 @@
 Will put elements side by side, but when you're using it, the width and height properties will not work.
 
 That happens because when you put this property in an element, it gets a word pattern.
-You will see that some spaces now are on screen, magically.
+You will see some spaces on screen, magically.
 
 These spaces are because of the line break. If you comment that or join the divs, it'll work. But is that all right?
 
