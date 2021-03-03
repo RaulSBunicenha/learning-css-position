@@ -26,7 +26,7 @@ It's used for elements that fill the entire row.
 If we put a `margin-left: auto`, that div will move to right;
 
 ### Reviews
-- [ ] One day after
+- [x] One day after
 - [ ] Three days after
 - [ ] One weeak after
 - [ ] One month after
