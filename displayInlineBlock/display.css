@@ -1,0 +1,32 @@
+.container {
+    text-align: justify; /* Justify value don't justify the last line */
+    height: 200px;
+    margin-top: 5px;
+}
+.container::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.container > .item {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.container > .item.first {
+    background: yellow;
+    color: white;
+}
+
+.container > .item.second {
+    background: blue;
+    color: white;
+}
+
+.container > .item.third {
+    background: red;
+    color: white;
+}
+
