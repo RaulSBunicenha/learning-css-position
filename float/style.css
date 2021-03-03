@@ -1,0 +1,38 @@
+/* .item {
+    box-sizing: content-box;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+} - That it's a way to put a text align x-axis and y-axis */
+
+article {
+    background: yellow;
+    overflow: hidden; /* hide any child element that is highest or widest, so it will calculate float elements */
+    /* height: 150px; */
+    width: 50%;
+}
+
+.item {
+    /* width: 51%; Will fall down */
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 24px;
+    float: right;
+    color: white;
+}
+
+.first {
+    background: #7A4BA9;
+    opacity: 0.3;
+}
+
+.second {
+    background: #AD3927;
+}
+
+p {
+    clear: both; /* will clean floating context from others elements (left, right, both) - Start a new context */
+}

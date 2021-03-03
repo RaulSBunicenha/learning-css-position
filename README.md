@@ -1,5 +1,7 @@
 # Learning CSS Position
 
+[Youtube Playlist](https://www.youtube.com/playlist?list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x)
+
 ## display: inline;
 
 Will put elements side by side, but when you're using it, the width and height properties will not work.
@@ -40,6 +42,22 @@ Will put elements side by side without remove `display: block` behavior. That wa
 But don't forget, this element still has a word behavior too. So you can align the elements by putting a `text-align: center;` in a father element.
 
 If we can use `text-align` property, we could use `justify` to center elements in a line. So it's important to know that `justify` does not justify the last line. You might need to use an __after__ selector, to create the last line, and align your elements.
+
+### Reviews
+- [ ] One day after
+- [ ] Three days after
+- [ ] One weeak after
+- [ ] One month after
+- [ ] Two months after
+- [ ] Three months after
+
+## Float Property
+
+Create a new layer (context), different from browser default, and you can position your element. It's similar to graphic software layers.
+
+You might observe that when you put this property, another element stay behind them. That is because the new layer is above.
+
+When this element goes to behind another. The content keeps where him from.
 
 ### Reviews
 - [ ] One day after
