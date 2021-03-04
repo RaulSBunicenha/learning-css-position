@@ -44,7 +44,7 @@ But don't forget, this element still has a word behavior too. So you can align t
 If we can use `text-align` property, we could use `justify` to center elements in a line. So it's important to know that `justify` does not justify the last line. You might need to use an __after__ selector, to create the last line, and align your elements.
 
 ### Reviews
-- [ ] One day after
+- [x] One day after
 - [ ] Three days after
 - [ ] One weeak after
 - [ ] One month after
@@ -60,7 +60,7 @@ You might observe that when you put this property, another element stay behind t
 When this element goes to behind another. The content keeps where him from.
 
 ### Reviews
-- [ ] One day after
+- [x] One day after
 - [ ] Three days after
 - [ ] One weeak after
 - [ ] One month after
