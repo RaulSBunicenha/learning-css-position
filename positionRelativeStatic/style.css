@@ -1,0 +1,36 @@
+article {
+    height: 200px; /* Setting because height will stay in original content */
+}
+
+/*
+    Z-Index priority is by render order in the new context (with Z index equal 0)
+*/
+.item {
+    /* position: static; it's default */
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    
+    position: relative;
+    z-index: 0; /* Z axis (depth) */
+}
+
+.first {
+    background: #7A4BA9;
+    top: 0; 
+}
+
+.second {
+    /* position: relative; If only this element goes to new context, the z-index change does not work */
+    background: #AD3927;
+    top: -200px; /* by the browser reference, it's different fron margin 
+    that way we can work in x-axis and z-axis */
+}
+
+.active {
+    z-index: 1; /* Z axis (depth) */
+}

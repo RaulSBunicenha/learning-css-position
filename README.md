@@ -66,3 +66,13 @@ When this element goes to behind another. The content keeps where him from.
 - [ ] One month after
 - [ ] Two months after
 - [ ] Three months after
+
+## Position Relative and Static;
+
+### Reviews
+- [ ] One day after
+- [ ] Three days after
+- [ ] One weeak after
+- [ ] One month after
+- [ ] Two months after
+- [ ] Three months after
