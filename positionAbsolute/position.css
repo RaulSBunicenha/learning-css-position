@@ -1,0 +1,46 @@
+.item {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.first {
+    right: 0;
+    background: red;
+
+    position: absolute; /* a new context is created, using the screen as a guide*/
+}
+.second {
+    background: green;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Move element to the left and to top (because the value is negative) (x axis, y axis) */
+}
+.third {
+    /* position: static; */
+    position: relative; /* Only to child element works in absolute position */
+    background: blue;
+}
+.internal {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: grey;
+
+    position: absolute; /* Only work if the parent is not position: static; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* 
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    It's a way to do
+    */
+}
